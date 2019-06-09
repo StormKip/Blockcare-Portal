@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  background-image: url('./Assets/BackgroundHomeBig.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 40px;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.registerButton{
+  background-color: #F8A39D;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 137px;
+  height: 34px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  letter-spacing: 4px;
+}
+
+.registerButton:hover{
+  background-color: #ff9189;
+  cursor: pointer;
+}
+
+.bigChangeText{
+  font-size: 89px;
+  width: 550px;
+  text-align: left;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 1em;
+  margin-block-end: 0;
+}
+
+.oneBlockStyle{
+  font-size: 45px;
+  text-align: left;
+  color: white;
+  font-family: Poppins;
+  margin-top: 35px;
+  margin-block-end: 0;
+}
+
+.blockcareTextStyle{
+  font-size: 25px;
+  text-align: right;
+  /* padding-left: 36px; */
+  /* margin-left: 34px; */
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-transform: uppercase;
+  letter-spacing: 22px;
+}
+
+.Home-Links{
+  font-size: 14px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Social-Links{
+  margin-right: 10px;
+  color: white !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
