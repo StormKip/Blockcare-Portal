@@ -12,15 +12,68 @@
   box-shadow: 1px 1px 1px #e2e2e2;
 }
 
+.imageDiv{
+  height: 130px;
+  width: 130px;
+  margin-left: 20px;
+  margin-top: 20px;
+  float: left;
+  /* padding: 15px; */
+  border: 2px solid #CFCFCF;
+  border-radius: 20px;
+}
 .patientDiv{
+  display: flex;
   height: 224px;
-  width: 306px;
+  width: 357px;
   margin-top: 61px;
   margin-left: 80px;
   border-radius: 10px;
   /* border-color: #E4E4E4; */
   border: 1px solid #E4E4E4;
   background-color: white;
+}
+
+.textDiv{
+  margin-left: 2em;
+}
+
+.textStyle{
+  font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.numberStyle{
+  float: right;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: inherit;
+    font-weight: 600;
+    width: fit-content;
+}
+.viewContainer{
+  display: inline-block;
+  margin-top: 5em;
+  width: 100%;
+  text-align: center;
+}
+.viewRecordsButton{
+  border-radius: 9px;
+  border: 1px solid #e05757;
+  width: 100px;
+  background-color: #e05757;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  /* float: left; */
+  padding: 0px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
 }
 
 .MainScreen{

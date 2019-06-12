@@ -76,7 +76,7 @@
   color: white;
   font-family: Poppins;
   font-weight: bold;
-  margin-block-start: 0em;
+  margin-block-start: 1em;
   margin-block-end: 0em;
   text-transform: uppercase;
   letter-spacing: 22px;
@@ -96,6 +96,7 @@
   color: white !important;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 25px
 }
 
 @keyframes App-logo-spin {
