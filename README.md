@@ -5,7 +5,7 @@ The idea is to decentralize medical records by storing records on a permissioned
 ## Built With
 
 * [ReactJS](https://reactjs.org/docs/getting-started.html/) - The web framework used
-* [Firebase](https://firebase.google.com/docs/) - Database Management System
+* [Firebase](https://firebase.google.com/docs/) - Used to create API's / Cloud Functions 
 * [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric/) - Blockchain Used
 
 
